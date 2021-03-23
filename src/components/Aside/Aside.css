@@ -1,0 +1,85 @@
+.aside {
+    position: fixed;
+    width: 84px;
+    height: 100%;
+    background-color: #2C353D;
+    top: 0;
+    left: 0;
+    transition: all 0.2s ease;
+}
+
+.aside:hover {
+    width: 245px;
+}
+
+.aside:hover .brandName {
+    left: 79px;
+    display: inline;
+}
+
+.aside:hover>nav>div>p {
+    left: 93px;
+}
+
+.logo {
+    width: 100%;
+    margin-top: 34px;
+}
+
+.logo>img {
+    margin-left: 23px;
+    display: inline;
+}
+
+.brandName {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 39px;
+    position: absolute;
+    left: -300px;
+}
+
+.brandName span {
+    color: #5063EE;
+}
+
+.navbar {
+    margin-top: 179px;
+}
+
+.navbar>div {
+    margin-bottom: 42px;
+}
+
+.home {
+    width: 100%;
+}
+
+.home>img {
+    margin-left: 24px;
+}
+
+.home>p {
+    font-weight: normal;
+    font-size: 20px;
+    position: absolute;
+    left: -300px;
+    display: inline;
+}
+
+.parties {
+    width: 100%;
+}
+
+.parties>img {
+    margin-left: 24px;
+}
+
+.parties>p {
+    white-space: nowrap;
+    font-weight: normal;
+    font-size: 20px;
+    position: absolute;
+    left: -300px;
+    display: inline;
+}
