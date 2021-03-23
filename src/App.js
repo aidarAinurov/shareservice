@@ -1,17 +1,18 @@
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import './App.css';
-import Header from './components/Header/index';
-import MainContent from './components/MainContent/index';
-import Footer from './components/Footer/index';
+import Header from './components/Header';
+import MainContent from './components/MainContent';
+import Footer from './components/Footer';
+import Aside from './components/Aside';
 
 function App() {
   return (
     <Router>
-      <div>main page</div>
-      <Route path="/header"><Header /></Route>
-      <Route path="/main"><MainContent /></Route>
-      <Route path="/footer"><Footer /></Route>
+      <Header />
+      <Aside />
+      <MainContent />
+      <Footer />
     </Router>
   );
 }
